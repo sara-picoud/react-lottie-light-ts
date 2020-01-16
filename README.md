@@ -1,4 +1,4 @@
-# @crello/react-lottie
+# @alfonmga/react-lottie
 
 React/Typescript wrapper for awesome Airbnb's [lottie-web](https://github.com/airbnb/lottie-web) lib.
 
@@ -8,13 +8,13 @@ React/Typescript wrapper for awesome Airbnb's [lottie-web](https://github.com/ai
 you can find demo files in `./examples` folder -- launch with `yarn start`
 
 ## Installation
-`yarn add @crello/react-lottie` or `npm install --save @crello/react-lottie`
+`yarn add @alfonmga/react-lottie-light-ts` or `npm install --save @alfonmga/react-lottie-light-ts`
 
 ## Usage
 Most basic react-lottie example:
 ```typescript
 import React from 'react';
-import { Lottie } from '@crello/react-lottie'
+import { Lottie } from '@alfonmga/react-lottie-light-ts'
 import animationData from './myAwesomeAnimation.json'
 
 export const BasicLottieComponent = () => <Lottie config={{animationData: animationData}}>
@@ -61,7 +61,7 @@ Any browser events should be added on elements wrapping actual `<Lottie>` e.g.:
 
 ## More
 
-See more details in @crello/react-lottie [exports](https://github.com/crello/react-lottie/blob/master/src/components/Lottie/interface.ts): `Lottie`, `ReactLottieConfig`, `ReactLottieOwnProps`, `ReactLottiePlayingState`
+See more details in @alfonmga/react-lottie-light-ts [exports](https://github.com/alfonmga/react-lottie-light-ts/blob/master/src/components/Lottie/interface.ts): `Lottie`, `ReactLottieConfig`, `ReactLottieOwnProps`, `ReactLottiePlayingState`
 
 Also check out the types provided by [`lottie-web`](https://github.com/airbnb/lottie-web/blob/master/index.d.ts) itself: `AnimationDirection`, `AnimationSegment`, `AnimationEventName`, `AnimationEventCallback`, `AnimationItem`, `BaseRendererConfig`, `SVGRendererConfig`, `CanvasRendererConfig`, `HTMLRendererConfig`, `AnimationConfig`, `AnimationConfigWithPath`, `AnimationConfigWithData`, `Lottie`
 
