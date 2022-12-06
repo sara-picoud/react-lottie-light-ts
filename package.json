@@ -1,6 +1,6 @@
 {
   "name": "@alfonmga/react-lottie-light-ts",
-  "version": "0.0.1",
+  "version": "3.0.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "private": false,
@@ -37,9 +37,6 @@
     "gh-pages-deploy": "cd example && npm run deploy",
     "build": "rollup -c",
     "build-watch": "rollup -c -w",
-    "install-all": "npm i && cd example && npm i",
-    "start-example": "cd example && npm start",
-    "test:lint": "eslint ./src/**/*.ts ./src/**/*.tsx ./example/src/**/*.ts ./example/src/**/*.tsx",
     "test:lint:fix": "npm run test:lint -- --fix"
   },
   "files": [
